@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an improvement to BangerPrep
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        GitHub issues are public. Do not include email addresses, access tokens, authentication cookies, private invitation links, or other personal information.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What problem would this change solve?
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested change
+      description: Describe the behaviour you would like.
+    validations:
+      required: true
+
